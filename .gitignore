@@ -1,0 +1,39 @@
+# Виртуальное окружение Python
+venv/
+env/
+.venv/
+
+# Файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи и кэши
+*.log
+.cache/
+
+# Файлы ОС
+.DS_Store
+Thumbs.db
+
+# Чувствительные данные
+.env
+*.env
+config.json
+
+# Артефакты сборки
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
